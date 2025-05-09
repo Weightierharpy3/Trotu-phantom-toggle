@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "phantom-toggle",
+  "version": "${version}",
+  "name": "Phantom Toggle",
+  "description": "A server-side mod that allows players to toggle phantom spawning for themselves",
+  "authors": [
+    "Trotu"
+  ],
+  "contact": {
+    "homepage": "https://github.com/weightierharpy3/Trotu-phantom-toggle",
+    "issues": "https://github.com/weightierharpy3/Trotu-phantom-toggle/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/phantomtoggle/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.trotu.phantomtoggle.PhantomToggleMod"
+    ]
+  },
+  "mixins": [
+    "phantomtoggle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric": "*",
+    "minecraft": "~1.21.5",
+    "java": ">=21"
+  }
+}

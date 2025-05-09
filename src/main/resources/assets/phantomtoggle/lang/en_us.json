@@ -1,0 +1,9 @@
+{
+  "commands.phantom.toggle.enabled": "Phantom spawning enabled for you.",
+  "commands.phantom.toggle.disabled": "Phantom spawning disabled for you.",
+  "commands.phantom.status.enabled": "Phantom spawning is currently enabled for you.",
+  "commands.phantom.status.disabled": "Phantom spawning is currently disabled for you.",
+  "commands.phantommod.version": "Phantom Toggle Mod - Version: %s",
+  "commands.phantommod.creator": "Phantom Toggle Mod - Created by: %s",
+  "commands.phantommod.info.usage": "Use /phantom toggle to toggle phantom spawning for yourself"
+}
